@@ -1,0 +1,204 @@
+.appointment {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.appointment .appointment-inner {
+  max-width: 80%;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.appointment .appointment-inner .appointment-text {
+  width: 40%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.appointment .appointment-inner .appointment-text .text {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+  padding: 10px 0px;
+}
+.appointment .appointment-inner .appointment-text .text .logo {
+  margin-right: 10px;
+}
+.appointment .appointment-inner .appointment-text .text .logo img {
+  width: 40px;
+  height: 40px;
+}
+.appointment .appointment-inner .appointment-text .text .description .heading h2 {
+  padding-bottom: 10px;
+}
+.appointment .appointment-inner .appointment-text .text .description .heading p {
+  color: rgb(21, 47, 46);
+}
+.appointment .appointment-inner .appointment-form {
+  max-width: 60%;
+  min-height: 550px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner {
+  max-width: 400px;
+  width: 100%;
+  min-height: 100%;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner .heading {
+  padding: 20px 0;
+  text-align: center;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner .heading h1 {
+  font-size: 32px;
+  line-height: 30px;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner .heading p {
+  padding-top: 20px;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner form {
+  max-width: 100%;
+  width: 100%;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner form .input {
+  width: 100%;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner form .input input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner form .input select {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.appointment .appointment-inner .appointment-form .appointment-form-inner form button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background: rgb(0, 194, 197);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .appointment {
+    padding: 30px 0;
+  }
+  .appointment .appointment-inner {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .appointment .appointment-inner .appointment-text {
+    width: 50%;
+    min-height: 500px;
+  }
+  .appointment .appointment-inner .appointment-text .text {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 10px 10px;
+  }
+  .appointment .appointment-inner .appointment-text .text .logo {
+    margin-right: 10px;
+  }
+  .appointment .appointment-inner .appointment-text .text .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .appointment .appointment-inner .appointment-text .text .description .heading h2 {
+    padding-bottom: 10px;
+  }
+  .appointment .appointment-inner .appointment-form {
+    max-width: 50%;
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .appointment .appointment-inner .appointment-form .appointment-form-inner {
+    max-width: 100%;
+    width: 100%;
+    min-height: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .appointment {
+    padding: 30px 0;
+  }
+  .appointment .appointment-inner {
+    max-width: 100%;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 20px;
+  }
+  .appointment .appointment-inner .appointment-text {
+    max-width: 100%;
+    width: 100%;
+    min-height: 400px;
+    margin-top: 30px;
+  }
+  .appointment .appointment-inner .appointment-text .text {
+    margin: 10px 0;
+  }
+  .appointment .appointment-inner .appointment-text .text .logo {
+    margin-right: 10px;
+  }
+  .appointment .appointment-inner .appointment-text .text .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .appointment .appointment-inner .appointment-text .text .description .heading h2 {
+    padding-bottom: 10px;
+  }
+  .appointment .appointment-inner .appointment-text .text .description .heading p {
+    font-size: 14px;
+  }
+  .appointment .appointment-inner .appointment-form {
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+  }
+  .appointment .appointment-inner .appointment-form .appointment-form-inner {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .appointment .appointment-inner .appointment-form .appointment-form-inner .heading {
+    padding: 20px 0;
+  }
+  .appointment .appointment-inner .appointment-form .appointment-form-inner .heading h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .appointment .appointment-inner .appointment-form .appointment-form-inner .heading p {
+    padding-top: 15px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=styles.css.map */
