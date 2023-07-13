@@ -1,8 +1,13 @@
 # To run the application on your local system - 
 - First clone this project using the "git clone" command or download the zip file from GitHub.
 - Install npm modules by using the "npm i" command
-- then start the application using "npm start"
+- then start the application using the "npm start" command
 
+## Deployment Link
+https://cometlabs-assignment.netlify.app/
+
+## Reference Design Link (Design / UI Link from which I inspired)
+https://unbounce.com/landing-page-template/multor/
 
 # Getting Started with Create React App
 
