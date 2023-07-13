@@ -1,7 +1,7 @@
 .about {
   min-height: 550px;
   width: 100%;
-  padding: 20px 0;
+  padding: 40px 0;
 
   .about-inner {
     max-width: 80%;
@@ -102,5 +102,11 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about {
+    padding: 20px 0;
   }
 }
