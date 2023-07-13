@@ -1,0 +1,146 @@
+.video {
+  min-height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(#e8fbfb, 1) 65%,
+    rgba(0, 0, 0, 0) 65%
+  );
+
+  .video-inner {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    padding: 40px 0;
+
+    .video-data {
+      max-width: 70%;
+      margin: auto auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      .heading-text {
+        color: #000;
+        max-width: 60%;
+        width: 100%;
+        margin-bottom: 50px;
+        h1 {
+          font-size: 45px;
+          color: rgb(21, 47, 46);
+        }
+        p {
+          padding-top: 20px;
+          font-size: 18px;
+          line-height: 30px;
+          color: rgb(21, 47, 46);
+        }
+      }
+
+      .video-container {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        video {
+          width: 500px;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .video {
+    .video-inner {
+      max-width: 100%;
+      width: 100%;
+      margin: auto auto;
+      padding: 20px 0;
+
+      .video-data {
+        max-width: 80%;
+        margin: auto auto;
+
+        .heading-text {
+          color: #000;
+          width: 100%;
+          margin-bottom: 30px;
+          h1 {
+            font-size: 35px;
+          }
+          p {
+            padding-top: 15px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .video {
+    .video-inner {
+      max-width: 100%;
+      width: 100%;
+      padding: 20px 0;
+
+      .video-data {
+        max-width: 90%;
+        margin: auto auto;
+
+        .heading-text {
+          width: 100%;
+          margin-bottom: 30px;
+          max-width: 80%;
+          h1 {
+            font-size: 32px;
+          }
+          p {
+            padding-top: 10px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .video {
+    min-height: 65vh;
+    .video-inner {
+      max-width: 100%;
+      width: 100%;
+      margin: auto auto;
+      padding: 20px 0;
+
+      .video-data {
+        max-width: 90%;
+        margin: auto auto;
+
+        .heading-text {
+          color: #000;
+          width: 100%;
+          margin-bottom: 30px;
+          max-width: 90%;
+          h1 {
+            font-size: 24px;
+          }
+          p {
+            padding-top: 10px;
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
