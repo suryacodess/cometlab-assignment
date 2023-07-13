@@ -1,0 +1,93 @@
+.about {
+  min-height: 550px;
+  width: 100%;
+  padding: 20px 0;
+}
+.about .about-inner {
+  max-width: 80%;
+  width: 100%;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .about-inner .about-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .about-inner .about-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .about-inner .about-text {
+  max-width: 50%;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .about-inner .about-text .text {
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+}
+.about .about-inner .about-text .text h6 {
+  font-size: 12px;
+  line-height: 1em;
+  font-family: "Work Sans";
+  letter-spacing: 2px;
+  color: rgb(0, 194, 197);
+  font-style: normal;
+  font-weight: 600;
+}
+.about .about-inner .about-text .text h1 {
+  padding: 20px 0;
+  font-size: 32px;
+  line-height: 1em;
+  color: rgb(21, 47, 46);
+  font-style: normal;
+}
+.about .about-inner .about-text .text p {
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(21, 47, 46);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 900px) {
+  .about .about-inner {
+    max-width: 90%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .about .about-inner {
+    max-width: 90%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .about .about-inner .about-img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .about .about-inner .about-img img {
+    width: 100%;
+  }
+  .about .about-inner .about-text {
+    max-width: 100%;
+    width: 100%;
+    min-height: auto;
+    margin-top: 30px;
+  }
+  .about .about-inner .about-text .text {
+    padding: 20px 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */
