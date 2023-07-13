@@ -2,6 +2,7 @@ import Home from "./components/home/Home";
 import AppointmentForm from "./components/appointment-form/AppointmentForm";
 import Video from "./components/video/Video";
 import Testimonial from "./components/testimonial/Testimonial";
+import Feature from "./components/feature/Feature";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AppointmentForm />
       <Video />
       <Testimonial />
+      <Feature />
     </div>
   );
 }
